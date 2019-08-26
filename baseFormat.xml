@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<crs:CRS_OECD xmlns:crs='urn:oecd:ties:crs:v1' xmlns:cfc='urn:oecd:ties:commontypesfatcacrs:v1' xmlns:stf='urn:oecd:ties:stf:v4'>
+		<crs:MessageSpec>
+			<crs:SendingCompanyIN xml:space='preserve'></crs:SendingCompanyIN>
+			<crs:TransmittingCountry xml:space='preserve'>GG</crs:TransmittingCountry>
+			<crs:ReceivingCountry xml:space='preserve'>GG</crs:ReceivingCountry>
+			<crs:MessageType xml:space='preserve'>CRS</crs:MessageType>
+			<crs:MessageRefId xml:space='preserve'></crs:MessageRefId>
+			<crs:ReportingPeriod xml:space='preserve'></crs:ReportingPeriod>
+			<crs:Timestamp xml:space='preserve'>2018-12-01T17:09:01</crs:Timestamp>
+		</crs:MessageSpec>
+		<crs:CrsBody>
+			<crs:ReportingFI>
+				<crs:IN xml:space='preserve'></crs:IN>
+				<crs:Name xml:space='preserve'></crs:Name>
+				<crs:Address>
+					<cfc:CountryCode xml:space='preserve'>GG</cfc:CountryCode>
+					<cfc:AddressFree xml:space='preserve'></cfc:AddressFree>
+				</crs:Address>
+				<crs:DocSpec>
+					<stf:DocTypeIndic xml:space='preserve'></stf:DocTypeIndic>
+					<stf:DocRefId xml:space='preserve'></stf:DocRefId>
+				</crs:DocSpec>
+			</crs:ReportingFI>
+			<crs:ReportingGroup>
+				<crs:AccountReport>
+					<crs:DocSpec>
+						<stf:DocTypeIndic xml:space='preserve'></stf:DocTypeIndic>
+						<stf:DocRefId xml:space='preserve'></stf:DocRefId>
+					</crs:DocSpec>
+					<crs:AccountNumber xml:space='preserve'></crs:AccountNumber>
+					<crs:AccountHolder>
+						<crs:Individual>
+							<crs:ResCountryCode xml:space='preserve'></crs:ResCountryCode>
+							<crs:TIN xml:space='preserve'></crs:TIN>
+							<crs:Name>
+								<crs:FirstName xml:space='preserve'></crs:FirstName>
+								<crs:LastName xml:space='preserve'></crs:LastName>
+							</crs:Name>
+							<crs:Address>
+								<cfc:CountryCode xml:space='preserve'></cfc:CountryCode>
+								<cfc:AddressFree xml:space='preserve'></cfc:AddressFree>
+							</crs:Address>
+						</crs:Individual>
+					</crs:AccountHolder>
+					<crs:AccountBalance currCode='GBP' xml:space='preserve'></crs:AccountBalance>
+				</crs:AccountReport>
+			</crs:ReportingGroup>
+		</crs:CrsBody>
+		
+
+	</crs:CRS_OECD>
